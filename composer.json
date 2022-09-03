@@ -4,7 +4,7 @@
     "keywords": ["laravel","session","mongodb","mongo","driver"],
     "authors": [
         {
-            "name": "Jens Segers",
+            "name": "Khaleel Rasakh",
             "homepage": "http://jenssegers.be"
         }
     ],
@@ -16,13 +16,13 @@
     },
     "autoload": {
         "psr-0": {
-            "Mewkhaleel\\Mongodb\\Session": "src/"
+            "Mewkhaleel\\Mongodbsession\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Mewkhaleel\\Mongodb\\Session\\SessionServiceProvider"
+                "Mewkhaleel\\Mongodbsession\\SessionServiceProvider"
             ]
         }
     }
